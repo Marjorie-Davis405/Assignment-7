@@ -24,8 +24,6 @@ public class WordManager : MonoBehaviour
     {
         if (hasActiveWord)
         {
-            // Check if letter was next
-            // remove it from the list
             if (activeWord.GetNextletter() == letter)
             {
                 activeWord.TypeLetter();
